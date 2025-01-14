@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/dist/logo.ico" />
+    <title>AviaMed</title>
+    <style>
+      #logo {
+        position: fixed; /* Чтобы закрепить логотип в верхнем левом углу */
+        top: 10px;
+        left: 10px;
+        width: 70px; /* Задаём размер логотипа */
+        height: auto;
+        z-index: 1000; /* Чтобы логотип всегда был на переднем плане */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Логотип -->
+    <!-- <img id="logo" src="/dist/logo.png" alt="AviaMed Logo" /> -->
+    
+    <!-- React точка входа -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
